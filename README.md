@@ -7,6 +7,12 @@ Built With
 * [Nodemon](https://nodemon.io/)
 * [Postman](https://www.postman.com/)
 
+To Download Mongo DB
+1. Go to Mongo DB and download MongoDB Comunity Server
+2. Download Robo 3T
+3. Open downloads and move the file into for example user folder (rename the file for convinience - mongodb)
+4. Create in the same folder a file mongodb-data
+
 Getting started
 
 1. Clone the project from Github
@@ -25,7 +31,7 @@ Getting started
  B. Press three dots to add request
  We can have GET, POST, PATCH, DELETE requests
  I. POST request:
-   - Authors
+  - Authors
       * Enter request url http://localhost:3000/authors/
       * Press Body
       * Check raw
@@ -37,7 +43,7 @@ Getting started
     "birthdate": "DOB"
 }
 ```
-   - Books
+  - Books
       * Enter request url http://localhost:3000/books/
       * Press Body
       * Check raw
@@ -53,17 +59,17 @@ Getting started
       }
 ```      
   II. DELETE request:
-    - Authors
+   - Authors
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press SEND
       (Check DB by refreshing Collection)
       In the body you will see the Author that was deleted
-    - Books
+   - Books
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
       (Check DB by refreshing Collection)
   III. PATCH request:
-    - Authors
+   - Authors
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press Body
       * Check raw
@@ -74,7 +80,7 @@ Getting started
         "name": "THE NEW VALUE"
       }
 ```
-   - Books
+  - Books
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press Body
       * Check raw
@@ -83,32 +89,34 @@ Getting started
 ```
       {
     "title": "THE NEW VALUE"
+    }
 ```
   IV. GET request:
-    -ALL Authors:
+   -ALL Authors:
       * Enter request url http://localhost:3000/authors/
       * Press SEND
-    -ALL Books:
+   -ALL Books:
       * http://localhost:3000/books
       * Press SEND
-    -SINGLE Author
+   -SINGLE Author
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press SEND
-    -SINGLE Book
+   -SINGLE Book
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
    (Check DB by refreshing Collection)
-    -Sorting books 
+   -Sorting books 
       * Enter request url http://localhost:3000/books?sortBy=title
      or 
       * Go to params:
       1. make key: sortBy
       2. value: title
       * Press Send
-    -Filter books
+   -Filter books
       * Enter request url http://localhost:3000/books
       * In the Body enter
-``` {
+``` 
+{
     "filterBy": {
         "author": [
             "AUTHOR ID"
@@ -116,6 +124,8 @@ Getting started
     }
 }
 ```
+
+
  
 
 
