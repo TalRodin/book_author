@@ -24,8 +24,8 @@ Getting started
  A. Create Collection
  B. Press three dots to add request
  We can have GET, POST, PATCH, DELETE requests
-  I. POST request:
-    - Authors
+ I. POST request:
+   - Authors
       * Enter request url http://localhost:3000/authors/
       * Press Body
       * Check raw
@@ -62,7 +62,7 @@ Getting started
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
       (Check DB by refreshing Collection)
-   III. PATCH request:
+  III. PATCH request:
     - Authors
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press Body
@@ -86,28 +86,28 @@ Getting started
 ```
   IV. GET request:
     -ALL Authors:
-     * Enter request url http://localhost:3000/authors/
-     * Press SEND
+      * Enter request url http://localhost:3000/authors/
+      * Press SEND
     -ALL Books:
-     * http://localhost:3000/books
-     * Press SEND
+      * http://localhost:3000/books
+      * Press SEND
     -SINGLE Author
-     * Enter request url http://localhost:3000/authors/[AUTHOR ID]
-     * Press SEND
+      * Enter request url http://localhost:3000/authors/[AUTHOR ID]
+      * Press SEND
     -SINGLE Book
-     * Enter request url http://localhost:3000/books/[BOOK ID]
-     * Press SEND
+      * Enter request url http://localhost:3000/books/[BOOK ID]
+      * Press SEND
    (Check DB by refreshing Collection)
     -Sorting books 
-     * Enter request url http://localhost:3000/books?sortBy=title
+      * Enter request url http://localhost:3000/books?sortBy=title
      or 
-     * Go to params:
+      * Go to params:
       1. make key: sortBy
       2. value: title
-     * Press Send
+      * Press Send
     -Filter books
-     * Enter request url http://localhost:3000/books
-     * In the Body enter
+      * Enter request url http://localhost:3000/books
+      * In the Body enter
 ``` {
     "filterBy": {
         "author": [
