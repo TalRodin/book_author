@@ -31,12 +31,10 @@ Getting started
       * Check raw
       * JSON format
       * in the body enter
-      ```
-      {
+      ```{
     "name":"YOUR NAME",
     "birthdate": "DOB"
-      }
-      ```
+      }```
       * Press SEND
       (Check DB by refreshing Collection)
     - Books
