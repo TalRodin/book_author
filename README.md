@@ -21,8 +21,8 @@ Getting started
 6. Run 
 ```npm run start```
 7. Postman:
- 1. Create Collection
- 2. Press three dots to add request
+ A. Create Collection
+ B. Press three dots to add request
  We can have GET, POST, PATCH, DELETE requests
   I. POST request:
     - Authors
