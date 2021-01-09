@@ -91,28 +91,28 @@ Getting started
     "title": "THE NEW VALUE"
     }
 ```
-  IV. GET request:
-   -ALL Authors:
+ IV. GET request:
+  -ALL Authors:
       * Enter request url http://localhost:3000/authors/
       * Press SEND
-   -ALL Books:
+  -ALL Books:
       * http://localhost:3000/books
       * Press SEND
-   -SINGLE Author
+  -SINGLE Author
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press SEND
-   -SINGLE Book
+  -SINGLE Book
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
    (Check DB by refreshing Collection)
-   -Sorting books 
+  -Sorting books 
       * Enter request url http://localhost:3000/books?sortBy=title
      or 
       * Go to params:
       1. make key: sortBy
       2. value: title
       * Press Send
-   -Filter books
+  -Filter books
       * Enter request url http://localhost:3000/books
       * In the Body enter
 ``` 
