@@ -30,21 +30,19 @@ Getting started
       * Press Body
       * Check raw
       * JSON format
-      * in the body enter
+      * in the body enter the JSON below and Press SEND
 ```
 {
     "name":"YOUR NAME",
     "birthdate": "DOB"
 }
 ```
-      * Press SEND
-      (Check DB by refreshing Collection)
-    - Books
+   - Books
       * Enter request url http://localhost:3000/books/
       * Press Body
       * Check raw
       * JSON format
-      * in the body enter 
+      * in the body enter the JSON below (Author Id can be taken from the author you just created) and Press SEND
 ```
       {
     "title" : "BOOK TITLE",
@@ -54,9 +52,6 @@ Getting started
     "author":"author ID"    
       }
 ```      
-      Author Id can be taken from the author you just created
-      * Press SEND
-      (Check DB by refreshing Collection)
   II. DELETE request:
     - Authors
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
@@ -73,28 +68,54 @@ Getting started
       * Press Body
       * Check raw
       * JSON format
-      * in the body enter
+      * in the body enter and Press Enter
 ```
       {
         "name": "THE NEW VALUE"
       }
 ```
-      * Press SEND
-      (Check DB by refreshing Collection)
-    - Books
+   - Books
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press Body
       * Check raw
       * JSON format
-      * in the body enter 
+      * in the body enter and Press Enter
 ```
       {
     "title": "THE NEW VALUE"
 ```
-      
-      * Press SEND
-      (Check DB by refreshing Collection)
-   
+  IV. GET request:
+    -ALL Authors:
+     * Enter request url http://localhost:3000/authors/
+     * Press SEND
+    -ALL Books:
+     * http://localhost:3000/books
+     * Press SEND
+    -SINGLE Author
+     * Enter request url http://localhost:3000/authors/[AUTHOR ID]
+     * Press SEND
+    -SINGLE Book
+     * Enter request url http://localhost:3000/books/[BOOK ID]
+     * Press SEND
+   (Check DB by refreshing Collection)
+    -Sorting books 
+     * Enter request url http://localhost:3000/books?sortBy=title
+     or 
+     * Go to params:
+      1. make key: sortBy
+      2. value: title
+     * Press Send
+    -Filter books
+     * Enter request url http://localhost:3000/books
+     * In the Body enter
+``` {
+    "filterBy": {
+        "author": [
+            "AUTHOR ID"
+        ]
+    }
+}
+```
  
 
 
