@@ -14,9 +14,12 @@ Getting started
 ```git clone <cloned project>```
 3. Switch to the directory of the project
 ```cd book_author```
-4. Run ```npm install```
-5. Run ```npm run seed```
-6. Run ```npm run start```
+4. Run 
+```npm install```
+5. Run 
+```npm run seed```
+6. Run 
+```npm run start```
 7. Postman:
  1. Create Collection
  2. Press three dots to add request
