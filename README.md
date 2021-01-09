@@ -31,14 +31,12 @@ Getting started
       * Check raw
       * JSON format
       * in the body enter
-      
-      ```
-      {
+```
+{
     "name":"YOUR NAME",
     "birthdate": "DOB"
-      }
-      ```
-      
+}
+```
       * Press SEND
       (Check DB by refreshing Collection)
     - Books
@@ -46,9 +44,8 @@ Getting started
       * Press Body
       * Check raw
       * JSON format
-      * in the body enter
-      
-      ```
+      * in the body enter 
+```
       {
     "title" : "BOOK TITLE",
     "publisher" : "PUBLISHER",
@@ -56,8 +53,7 @@ Getting started
     "description" : "DESCRIPTION",
     "author":"author ID"    
       }
-      ```
-      
+```      
       Author Id can be taken from the author you just created
       * Press SEND
       (Check DB by refreshing Collection)
@@ -78,13 +74,11 @@ Getting started
       * Check raw
       * JSON format
       * in the body enter
-      
-      ```
+```
       {
-    "name": "THE NEW VALUE"
+        "name": "THE NEW VALUE"
       }
-      ```
-      
+```
       * Press SEND
       (Check DB by refreshing Collection)
     - Books
@@ -92,13 +86,11 @@ Getting started
       * Press Body
       * Check raw
       * JSON format
-      * in the body enter
-      
-      ```
+      * in the body enter 
+```
       {
     "title": "THE NEW VALUE"
-      }
-      ```
+```
       
       * Press SEND
       (Check DB by refreshing Collection)
