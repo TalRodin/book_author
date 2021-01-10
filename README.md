@@ -126,7 +126,7 @@ IV. GET request:
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press SEND
       
-   -SINGLE Book
+   - SINGLE Book
    
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
