@@ -27,11 +27,12 @@ Getting started
 6. Run 
 ```npm run start```
 7. Postman:
-A. Create Collection
-B. Press three dots to add request
+          A. Create Collection
+          B. Press three dots to add request
 We can have GET, POST, PATCH, DELETE requests
-  I. POST request:
-  - Authors
+
+I. POST request:
+- Authors
       * Enter request url http://localhost:3000/authors/
       * Press Body
       * Check raw
@@ -43,7 +44,7 @@ We can have GET, POST, PATCH, DELETE requests
  "birthdate": "DOB"
 }
 ```
-  - Books
+- Books
       * Enter request url http://localhost:3000/books/
       * Press Body
       * Check raw
@@ -58,18 +59,18 @@ We can have GET, POST, PATCH, DELETE requests
  "author":"author ID"    
 }
 ```      
-  II. DELETE request:
-   - Authors
+II. DELETE request:
+- Authors
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press SEND
       (Check DB by refreshing Collection)
       In the body you will see the Author that was deleted
-   - Books
+- Books
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
       (Check DB by refreshing Collection)
-  III. PATCH request:
-   - Authors
+III. PATCH request:
+- Authors
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press Body
       * Check raw
@@ -80,7 +81,7 @@ We can have GET, POST, PATCH, DELETE requests
         "name": "THE NEW VALUE"
       }
 ```
-  - Books
+- Books
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press Body
       * Check raw
@@ -91,28 +92,28 @@ We can have GET, POST, PATCH, DELETE requests
  "title": "THE NEW VALUE"
 }
 ```
-  IV. GET request:
- -ALL Authors:
+IV. GET request:
+-ALL Authors:
       * Enter request url http://localhost:3000/authors/
       * Press SEND
- -ALL Books:
+-ALL Books:
       * http://localhost:3000/books
       * Press SEND
- -SINGLE Author
+-SINGLE Author
       * Enter request url http://localhost:3000/authors/[AUTHOR ID]
       * Press SEND
- -SINGLE Book
+-SINGLE Book
       * Enter request url http://localhost:3000/books/[BOOK ID]
       * Press SEND
    (Check DB by refreshing Collection)
- -Sorting books 
+-Sorting books 
       * Enter request url http://localhost:3000/books?sortBy=title
      or 
       * Go to params:
        1. make key: sortBy
        2. value: title
       * Press Send
- -Filter books
+-Filter books
       * Enter request url http://localhost:3000/books
       * In the Body enter
 ``` 
